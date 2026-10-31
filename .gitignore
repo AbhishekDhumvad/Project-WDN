@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.leak_env/
+.venv/
+# results written by a run (next to main.exe / the script)
+*_pressure_sensor_study/
+leakinp_*/
+*_temp.inp
+# networks unpacked by main.exe next to itself
+dist/*.inp
+dist/*.py
+# the 177 MB original is kept compressed in networks/L-TOWN_v2_Real.inp.xz
+networks/L-TOWN_v2_Real.inp
+# files a run writes next to the script / main.exe
+src/*.inp
+src/*.html
+dist/*.html

@@ -1,0 +1,8 @@
+# Python 3.9+   (main.exe installs these automatically into .leak_env on the first start)
+epyt            # EPANET-Python Toolkit (includes the EPANET engine)
+numpy
+pandas
+openpyxl
+matplotlib
+plotly          # optional: charts are built into the HTML report (without it they load from the internet)
+# torch         # optional: GPU training of the encoder-decoder (installed automatically when nvidia-smi is found)

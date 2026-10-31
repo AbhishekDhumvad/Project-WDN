@@ -1,0 +1,2 @@
+# The HTML files are generated reports (with the chart library inside) - not code: leave them out of the language bar
+*.html linguist-generated
